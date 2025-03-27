@@ -1,2 +1,2 @@
 class Teacher:
-    
+    def questions(): 
