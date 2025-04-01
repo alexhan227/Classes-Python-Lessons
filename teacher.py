@@ -17,5 +17,14 @@ FlashCards1 = FlashCards(question, answer)
 FlashCards1.ask_question()
 FlashCards1.the_answer()
 
+FlashCards2 = FlashCards(question, answer)
+FlashCards1.ask_question()
+FlashCards1.the_answer()
+
+FlashCards3 = FlashCards(question, answer)
+FlashCards1.ask_question()
+FlashCards1.the_answer()
+
 Q = []
+
 
