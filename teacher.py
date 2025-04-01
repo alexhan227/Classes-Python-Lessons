@@ -8,12 +8,14 @@ class FlashCards:
 
     def the_answer(self):
         print(self.answer)
-            
+                
 question = input("what is the question?: ")
 answer = input("What is the answer?: ")
     
 
 FlashCards1 = FlashCards(question, answer)
-
 FlashCards1.ask_question()
 FlashCards1.the_answer()
+
+Q = []
+
