@@ -1,6 +1,10 @@
 import json
 Q={}
 p=[]
+
+
+
+
 class FlashCards:
     def __init__(self, question, answer):
         self.question = question
