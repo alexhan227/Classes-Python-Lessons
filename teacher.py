@@ -2,6 +2,11 @@ import json
 Q={}
 p=[]
 
+try:
+    with open("FlashCards.json", "r") as file:
+        p = json.load(file)
+except FileNotFoundError:
+    p = []
 
 
 
@@ -22,6 +27,7 @@ FlashCards1.dictionary()
 
 
 p.append(Q)
+print(p)
 
 # Save updated data back to file
 with open("FlashCards.json", "w") as file:
